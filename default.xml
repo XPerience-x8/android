@@ -21,15 +21,15 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="androidarmv6/android_build" groups="pdk">
+  <project path="build" name="XPerience-x8/android_build_kk" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="androidarmv6/android" />
+  <project path="android" name="XPerience-x8/android_kk" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
 <!--  <project path="art" name="CyanogenMod/android_art" /> -->
-  <project path="bionic" name="androidarmv6/android_bionic" groups="pdk" />
+  <project path="bionic" name="XPerience-x8/android_bionic_kk" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="androidarmv6/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
@@ -150,7 +150,7 @@
   <project path="external/htop" name="CyanogenMod/android_external_htop" />
   <project path="external/hyphenation" name="CyanogenMod/android_external_hyphenation" />
   <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" groups="pdk" />
-  <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
+  <project path="external/iproute2" name="XPerience-x8/android_external_iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" />
   <project path="external/iputils" name="platform/external/iputils" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
@@ -285,8 +285,8 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="androidarmv6/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
+  <project path="frameworks/av" name="XPerience-x8/android_frameworks_av_kk" groups="pdk" />
+  <project path="frameworks/base" name="XPerience-x8/android_frameworks_base_kk" />
   <project path="frameworks/compile/libbcc" name="androidarmv6/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="androidarmv6/android_frameworks_compile_slang" groups="pdk" />
@@ -328,7 +328,7 @@
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
-  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" groups="qcom" />
+  <project path="hardware/qcom/display-legacy" name="XPerience-x8/android_hardware_qcom_display-legacy" groups="qcom" />
   <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media-legacy" name="androidarmv6/android_hardware_qcom_media-legacy" />
@@ -373,13 +373,14 @@
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
+  <project path="packages/apps/LegacyCamera" name="XPerience-x8/android_packages_apps_LegacyCamera_KK" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="XPerience-x8/android_packages_apps_Settings_kk" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -465,7 +466,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/core" name="androidarmv6/android_system_core" groups="pdk" />
+  <project path="system/core" name="XPerience-x8/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="androidarmv6/android_system_netd" groups="pdk" />
@@ -482,7 +483,14 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="vendor/cm" name="androidarmv6/android_vendor_cm" />
+  <project path="vendor/cm" name="XPerience-x8/android_vendor_cm_kk" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
+
+  <!--XPERIENCE STUFF-->
+  
+  <!--<project path="device/semc/shakira" name="XPerience-x8/android_device_semc_shakira_kk" />
+  <project path="device/semc/msm7x27-common" name="XPerience-x8/android_device_semc_msm7x27-common_kk" />
+  <project path="hardware/akm" name="XPerience-x8/android_hardware_akm" revision="cm-11.0" />-->
+  
 </manifest>
